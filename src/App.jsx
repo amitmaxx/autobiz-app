@@ -1,9 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 
 const FREE_MODELS = [
-  "mistralai/mistral-7b-instruct:free",
-  "mistralai/mistral-7b-instruct:free",
-  "google/gemma-2-9b-it:free"
+ "google/gemma-2-9b-it:free"
 ];
 
 async function callAI(apiKey, prompt, system = "") {
