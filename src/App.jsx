@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 
 const FREE_MODELS = [
- "google/gemma-2-9b-it:free"
+  "openrouter/auto"
 ];
 
 async function callAI(apiKey, prompt, system = "") {
